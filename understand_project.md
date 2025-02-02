@@ -1,0 +1,358 @@
+Hi, can you make me understand the project with the following directory structure setup? Also, create a sample project with exactly the same functionality but an optimized directory structure and give me the understand_project.zip file for this particular project. The directory structure in the project is as follows -> :
+
+╰─ app/
+  ╰─ api/
+    ╰─ alibaba.ts
+    ╰─ anthropic.ts
+    ╰─ artifacts/
+
+    ╰─ auth.ts
+    ╰─ azure.ts
+    ╰─ baidu.ts
+    ╰─ bytedance.ts
+    ╰─ common.ts
+    ╰─ config/
+
+    ╰─ deepseek.ts
+    ╰─ glm.ts
+    ╰─ google.ts
+    ╰─ iflytek.ts
+    ╰─ moonshot.ts
+    ╰─ openai.ts
+    ╰─ proxy.ts
+    ╰─ stability.ts
+    ╰─ tencent/
+
+    ╰─ upstash/
+
+    ╰─ webdav/
+
+    ╰─ xai.ts
+    ╰─ [provider]/
+
+  ╰─ client/
+    ╰─ api.ts
+    ╰─ controller.ts
+    ╰─ platforms/
+
+  ╰─ command.ts
+  ╰─ components/
+    ╰─ artifacts.module.scss
+    ╰─ artifacts.tsx
+    ╰─ auth.module.scss
+    ╰─ auth.tsx
+    ╰─ button.module.scss
+    ╰─ button.tsx
+    ╰─ chat-list.tsx
+    ╰─ chat.module.scss
+    ╰─ chat.tsx
+    ╰─ emoji.tsx
+    ╰─ error.tsx
+    ╰─ exporter.module.scss
+    ╰─ exporter.tsx
+    ╰─ home.module.scss
+    ╰─ home.tsx
+    ╰─ input-range.module.scss
+    ╰─ input-range.tsx
+    ╰─ markdown.tsx
+    ╰─ mask.module.scss
+    ╰─ mask.tsx
+    ╰─ mcp-market.module.scss
+    ╰─ mcp-market.tsx
+    ╰─ message-selector.module.scss
+    ╰─ message-selector.tsx
+    ╰─ model-config.module.scss
+    ╰─ model-config.tsx
+    ╰─ new-chat.module.scss
+    ╰─ new-chat.tsx
+    ╰─ plugin.module.scss
+    ╰─ plugin.tsx
+    ╰─ realtime-chat/
+
+    ╰─ sd/
+
+    ╰─ search-chat.tsx
+    ╰─ settings.module.scss
+    ╰─ settings.tsx
+    ╰─ sidebar.tsx
+    ╰─ tts-config.tsx
+    ╰─ tts.module.scss
+    ╰─ ui-lib.module.scss
+    ╰─ ui-lib.tsx
+    ╰─ voice-print/
+
+  ╰─ config/
+    ╰─ build.ts
+    ╰─ client.ts
+    ╰─ server.ts
+  ╰─ constant.ts
+  ╰─ global.d.ts
+  ╰─ icons/
+    ╰─ add.svg
+    ╰─ arrow.svg
+    ╰─ auto.svg
+    ╰─ black-bot.svg
+    ╰─ bot.png
+    ╰─ bot.svg
+    ╰─ bottom.svg
+    ╰─ brain.svg
+    ╰─ break.svg
+    ╰─ cancel.svg
+    ╰─ chat-settings.svg
+    ╰─ chat.svg
+    ╰─ chatgpt.png
+    ╰─ chatgpt.svg
+    ╰─ clear.svg
+    ╰─ close.svg
+    ╰─ cloud-fail.svg
+    ╰─ cloud-success.svg
+    ╰─ config.svg
+    ╰─ confirm.svg
+    ╰─ connection.svg
+    ╰─ copy.svg
+    ╰─ dark.svg
+    ╰─ delete.svg
+    ╰─ discovery.svg
+    ╰─ down.svg
+    ╰─ download.svg
+    ╰─ drag.svg
+    ╰─ edit.svg
+    ╰─ export.svg
+    ╰─ eye-off.svg
+    ╰─ eye.svg
+    ╰─ fire.svg
+    ╰─ github.svg
+    ╰─ hd.svg
+    ╰─ headphone.svg
+    ╰─ history.svg
+    ╰─ image.svg
+    ╰─ left.svg
+    ╰─ light.svg
+    ╰─ lightning.svg
+    ╰─ loading.svg
+    ╰─ logo.svg
+    ╰─ mask.svg
+    ╰─ max.svg
+    ╰─ mcp.svg
+    ╰─ menu.svg
+    ╰─ min.svg
+    ╰─ palette.svg
+    ╰─ pause.svg
+    ╰─ pin.svg
+    ╰─ play.svg
+    ╰─ plugin.svg
+    ╰─ power.svg
+    ╰─ prompt.svg
+    ╰─ reload.svg
+    ╰─ rename.svg
+    ╰─ return.svg
+    ╰─ robot.svg
+    ╰─ sd.svg
+    ╰─ send-white.svg
+    ╰─ settings.svg
+    ╰─ share.svg
+    ╰─ shortcutkey.svg
+    ╰─ size.svg
+    ╰─ speak-stop.svg
+    ╰─ speak.svg
+    ╰─ three-dots.svg
+    ╰─ tool.svg
+    ╰─ upload.svg
+    ╰─ voice-off.svg
+    ╰─ voice-white.svg
+    ╰─ voice.svg
+    ╰─ zoom.svg
+  ╰─ layout.tsx
+  ╰─ lib/
+    ╰─ audio.ts
+  ╰─ locales/
+    ╰─ ar.ts
+    ╰─ bn.ts
+    ╰─ cn.ts
+    ╰─ cs.ts
+    ╰─ de.ts
+    ╰─ en.ts
+    ╰─ es.ts
+    ╰─ fr.ts
+    ╰─ id.ts
+    ╰─ index.ts
+    ╰─ it.ts
+    ╰─ jp.ts
+    ╰─ ko.ts
+    ╰─ no.ts
+    ╰─ pt.ts
+    ╰─ ru.ts
+    ╰─ sk.ts
+    ╰─ tr.ts
+    ╰─ tw.ts
+    ╰─ vi.ts
+  ╰─ masks/
+    ╰─ build.ts
+    ╰─ cn.ts
+    ╰─ en.ts
+    ╰─ index.ts
+    ╰─ tw.ts
+    ╰─ typing.ts
+  ╰─ mcp/
+    ╰─ actions.ts
+    ╰─ client.ts
+    ╰─ logger.ts
+    ╰─ mcp_config.default.json
+    ╰─ types.ts
+    ╰─ utils.ts
+  ╰─ page.tsx
+  ╰─ polyfill.ts
+  ╰─ store/
+    ╰─ access.ts
+    ╰─ chat.ts
+    ╰─ config.ts
+    ╰─ index.ts
+    ╰─ mask.ts
+    ╰─ plugin.ts
+    ╰─ prompt.ts
+    ╰─ sd.ts
+    ╰─ sync.ts
+    ╰─ update.ts
+  ╰─ styles/
+    ╰─ animation.scss
+    ╰─ globals.scss
+    ╰─ highlight.scss
+    ╰─ markdown.scss
+    ╰─ window.scss
+  ╰─ typing.ts
+  ╰─ utils/
+    ╰─ audio.ts
+    ╰─ auth-settings-events.ts
+    ╰─ baidu.ts
+    ╰─ chat.ts
+    ╰─ clone.ts
+    ╰─ cloud/
+
+    ╰─ cloudflare.ts
+    ╰─ format.ts
+    ╰─ hmac.ts
+    ╰─ hooks.ts
+    ╰─ indexedDB-storage.ts
+    ╰─ merge.ts
+    ╰─ model.ts
+    ╰─ ms_edge_tts.ts
+    ╰─ object.ts
+    ╰─ store.ts
+    ╰─ stream.ts
+    ╰─ sync.ts
+    ╰─ tencent.ts
+    ╰─ token.ts
+  ╰─ utils.ts
+╰─ [33mbuild.ps1[0m
+╰─ [33mCODE_OF_CONDUCT.md[0m
+╰─ [33mdocker-compose.yml[0m
+╰─ [33mDockerfile[0m
+╰─ docs/
+  ╰─ bt-cn.md
+  ╰─ cloudflare-pages-cn.md
+  ╰─ cloudflare-pages-en.md
+  ╰─ cloudflare-pages-es.md
+  ╰─ cloudflare-pages-ja.md
+  ╰─ cloudflare-pages-ko.md
+  ╰─ faq-cn.md
+  ╰─ faq-en.md
+  ╰─ faq-es.md
+  ╰─ faq-ja.md
+  ╰─ faq-ko.md
+  ╰─ images/
+    ╰─ bt/
+
+    ╰─ cover.png
+    ╰─ enable-actions-sync.jpg
+    ╰─ enable-actions.jpg
+    ╰─ ent.svg
+    ╰─ head-cover.png
+    ╰─ icon.svg
+    ╰─ more.png
+    ╰─ settings.png
+    ╰─ upstash-1.png
+    ╰─ upstash-2.png
+    ╰─ upstash-3.png
+    ╰─ upstash-4.png
+    ╰─ upstash-5.png
+    ╰─ upstash-6.png
+    ╰─ upstash-7.png
+    ╰─ vercel/
+
+  ╰─ synchronise-chat-logs-cn.md
+  ╰─ synchronise-chat-logs-en.md
+  ╰─ synchronise-chat-logs-es.md
+  ╰─ synchronise-chat-logs-ja.md
+  ╰─ synchronise-chat-logs-ko.md
+  ╰─ translation.md
+  ╰─ user-manual-cn.md
+  ╰─ vercel-cn.md
+  ╰─ vercel-es.md
+  ╰─ vercel-ja.md
+  ╰─ vercel-ko.md
+╰─ [33mjest.config.ts[0m
+╰─ [33mjest.setup.ts[0m
+╰─ [33mLICENSE[0m
+╰─ [33mnext-env.d.ts[0m
+╰─ [33mnext.config.mjs[0m
+╰─ [33mpackage.json[0m
+╰─ [33mproject_run_information.md[0m
+╰─ public/
+  ╰─ android-chrome-192x192.png
+  ╰─ android-chrome-512x512.png
+  ╰─ apple-touch-icon.png
+  ╰─ audio-processor.js
+  ╰─ favicon-16x16.png
+  ╰─ favicon-32x32.png
+  ╰─ favicon.ico
+  ╰─ macos.png
+  ╰─ masks.json
+  ╰─ plugins.json
+  ╰─ prompts.json
+  ╰─ robots.txt
+  ╰─ serviceWorker.js
+  ╰─ serviceWorkerRegister.js
+  ╰─ site.webmanifest
+╰─ [33mquery.md[0m
+╰─ [33mREADME.md[0m
+╰─ [33mREADME_CN.md[0m
+╰─ [33mREADME_JA.md[0m
+╰─ scripts/
+  ╰─ [34mdelete-deployment-preview.sh[0m
+  ╰─ fetch-prompts.mjs
+  ╰─ [34minit-proxy.sh[0m
+  ╰─ proxychains.template.conf
+  ╰─ [34msetup.sh[0m
+╰─ src-tauri/
+  ╰─ build.rs
+  ╰─ Cargo.lock
+  ╰─ Cargo.toml
+  ╰─ icons/
+    ╰─ 128x128.png
+    ╰─ 128x128@2x.png
+    ╰─ 32x32.png
+    ╰─ icon.icns
+    ╰─ icon.ico
+    ╰─ icon.png
+    ╰─ Square107x107Logo.png
+    ╰─ Square142x142Logo.png
+    ╰─ Square150x150Logo.png
+    ╰─ Square284x284Logo.png
+    ╰─ Square30x30Logo.png
+    ╰─ Square310x310Logo.png
+    ╰─ Square44x44Logo.png
+    ╰─ Square71x71Logo.png
+    ╰─ Square89x89Logo.png
+    ╰─ StoreLogo.png
+  ╰─ src/
+    ╰─ main.rs
+    ╰─ stream.rs
+  ╰─ tauri.conf.json
+╰─ test/
+  ╰─ model-available.test.ts
+  ╰─ model-provider.test.ts
+  ╰─ sum-module.test.ts
+  ╰─ vision-model-checker.test.ts
+╰─ [33mtsconfig.json[0m
+╰─ [33mvercel.json[0m
+╰─ [33myarn.lock[0m
