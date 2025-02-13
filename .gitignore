@@ -4,6 +4,8 @@ build.ps1
 *directory*
 *.env.template*
 query.md
+understand.md
+*understand*
 # dependencies
 /node_modules
 /.pnp

@@ -296,6 +296,7 @@ Hi, can you make me understand the project with the following directory structur
 ╰─ [33mnext-env.d.ts[0m
 ╰─ [33mnext.config.mjs[0m
 ╰─ [33mpackage.json[0m
+╰─ [33mproject_runner.ps1[0m
 ╰─ [33mproject_run_information.md[0m
 ╰─ public/
   ╰─ android-chrome-192x192.png
@@ -315,6 +316,7 @@ Hi, can you make me understand the project with the following directory structur
   ╰─ site.webmanifest
 ╰─ [33mquery.md[0m
 ╰─ [33mREADME.md[0m
+╰─ [33mREADME1.md[0m
 ╰─ [33mREADME_CN.md[0m
 ╰─ [33mREADME_JA.md[0m
 ╰─ scripts/
@@ -354,5 +356,7 @@ Hi, can you make me understand the project with the following directory structur
   ╰─ sum-module.test.ts
   ╰─ vision-model-checker.test.ts
 ╰─ [33mtsconfig.json[0m
+╰─ [33munderstand.md[0m
+╰─ [33munderstand_project.md[0m
 ╰─ [33mvercel.json[0m
 ╰─ [33myarn.lock[0m
